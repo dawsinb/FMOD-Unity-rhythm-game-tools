@@ -39,9 +39,6 @@ public class MusicManager : MonoBehaviour {
 
 
   private void Awake() {
-    // initialize public reference
-    me = this;
-
     // initialize the music player
     musicPlayEvent = RuntimeManager.CreateInstance(music);
 
